@@ -1,0 +1,7 @@
+Evidence {i}:
+    Logs:
+        {logs}
+    Answer:
+        System State:{state}
+        Explanation:{explanation}
+        Uncertainty:{uncertainty}

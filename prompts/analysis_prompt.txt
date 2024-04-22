@@ -1,0 +1,17 @@
+You will be given a window of {file_system} logs separated by newlines. Based on the current window of logs, you are required to predict whether the system is in a [normal] or [abnormal] state, along with a written description of your reasoning. We will also provide preceding or similar context logs along with the relevant evidence of the system's state during those log entries for your reference.
+
+# Notes:
+
+    1. The system itself has a certain degree of fault tolerance, so even though some logs may contain error messages, it does not necessarily mean that the system is in an [Abnormal] state.
+    2. Please carefully compare the provided evidence and the input logs to infer the abnormal state.
+    3. When comparing, focus on the text, and you may selectively ignore some differences in numbers.
+
+
+# Evidences
+
+{evidences}
+
+# Input
+    Logs:
+        {logs}
+    Answer:

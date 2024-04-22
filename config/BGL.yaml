@@ -1,0 +1,13 @@
+#type: args
+random_seed: 0
+dataset_name: "BGL"
+window_size: 4
+step_size: 2
+rag_start: 30000
+rag_end: 30010
+test_start: 221500
+test_end: 223500
+batch_size: 128
+
+label_threshold: 0.85
+select_threshold: 0.85

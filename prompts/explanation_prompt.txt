@@ -1,0 +1,21 @@
+You will see a log window of {file_system} separated by line breaks. It is known that the system is in {state} state during the current log window. Your task is to interpret the reason for the system being in {state} state based on the observed logs using the given rules.
+
+# Rules:
+    [Normal] State:
+        1.  The logs show routine system operations with no error indications.
+        2.  Performance metrics, such as CPU usage and memory, are within normal ranges.
+        3.  Security logs do not report any suspicious or malicious activities.
+        4.  Some issues that the system can automatically repair are not included in the analysis.
+    [Abnormal] State:
+        1.  Error logs or failed operations are present in the logs.
+        2.  Performance metrics indicate issues, such as high load or memory leaks.
+        3.  Security logs show potential risks like failed logins or unusual access patterns.
+        4.  Anomalous behavior from users or system components may contribute to the abnormal state.
+
+Input:
+    Logs:
+        {logs}
+    System State: {state}
+
+Answer:
+    Explanation:
