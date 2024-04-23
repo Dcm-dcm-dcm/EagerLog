@@ -9,5 +9,5 @@ test_start: 221500
 test_end: 223500
 batch_size: 128
 
-label_threshold: 0.85
-select_threshold: 0.85
+label_threshold: 0.80
+select_threshold: 0.9
