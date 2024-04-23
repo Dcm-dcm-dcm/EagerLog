@@ -122,7 +122,7 @@ def main():
             passage_uncertainty.append(uncertainty)
             passage_labels.append(result_label)
         result_df['result_label'].append(result_label)
-        result_df['human_label'].append(result_label)
+        result_df['human_label'].append(human_label)
 
         epoch += 1
         if epoch % save_epoch == 0:
